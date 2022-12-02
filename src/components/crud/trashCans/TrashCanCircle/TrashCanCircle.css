@@ -1,0 +1,34 @@
+.trashCanCircle {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.trashCanCircle__deleteButton {
+    position: relative;
+    height: 2rem;
+    width: 2rem;
+    padding: 0.25rem;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.trashCanCircle__deleteButton:hover {
+    opacity: 1;
+    background-color: rgb(216, 216, 216);
+    border-radius: 2rem;
+}
+
+.trashCanCircle__lidImg {
+    position: relative;
+    height: 50%;
+    padding-top: 2px;
+    object-fit: contain;
+}
+
+.trashCanCircle__bodyImg {
+    position: relative;
+    height: 80%;
+    object-fit: contain;
+}
